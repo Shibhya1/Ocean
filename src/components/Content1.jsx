@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Content1() {
   const content1bg ={
-    backgroundColor:"#259faf",
+    backgroundColor:"rgb(0, 35, 54)",
     fontSize:"20px"
   }
   const content1img={
@@ -10,13 +10,13 @@ export default function Content1() {
   }
     return (
   
-        <div class="d-flex align-items-center " style={content1bg}>
+        <div className="d-flex align-items-center " style={content1bg}>
   <div className="flex-shrink-0 col-md-6">
     <img src="https://www.shutterstock.com/image-photo/female-scuba-diver-taking-photo-600nw-2303138149.jpg"  className="img-fluid p-3" alt="..." width="750px" style={content1img}/>
   </div>
   <div className="flex-grow-1 ms-3">
-    <h2>   Match with the best agent.</h2>
-    <p> Our verified partner Agents are local experts who<br></br> earn an average of 4.5/5 stars from buyers and sellers. </p>
+    <h2 style={{textAlign:"right",paddingRight:"35px"}}>Match with the best agent.</h2>
+    <p style={{textAlign:"right",paddingRight:"35px"}}> Our verified partner Agents are local experts who<br></br> earn an average of 4.5/5 stars from buyers and sellers. </p>
 
   </div>
 </div>

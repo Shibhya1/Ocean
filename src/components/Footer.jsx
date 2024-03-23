@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Footer() {
     const backgroundNav={
-        backgroundColor:"#152636",
+        backgroundColor:"rgb(0, 35, 54)",
         color:"white"
     }
     return (

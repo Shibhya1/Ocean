@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Hero() {
   const heroBackground ={
-    backgroundColor:"#259faf"
+    backgroundColor:"rgb(0, 35, 54)"
   }
   const lenght={
     height:"100%"
@@ -18,10 +19,11 @@ const heroImage={
       </div>
       <div className="col-lg-6">
         <h1 className="display-5 fw-bold  lh-1 mb-3 text-white">Protect Our Water Bodies</h1>
-        <p className="lead text-white">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+        <p className="lead text-white">We tackle ocean plastic pollution by developing innovative methods to detect plastic debris using advanced technologies. Through raising awareness and promoting solutions, we strive to protect our marine ecosystems and keep our oceans plastic-free.</p>
         <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" className="btn btn-success btn-lg px-4 me-md-2 text-white border border-dark" >Login</button>
-          <button type="button" className="btn btn-success btn-lg px-4 text-white border border-dark">Signup</button>
+        <Link className="btn bg-success btn-lg px-4 text-white border border-dark " to ="/dashboard">Login</Link>
+        <Link className="btn bg-success btn-lg px-4 text-white border border-dark " to ="/signup">Sign up</Link>
+        
         </div>
       </div>
     </div>

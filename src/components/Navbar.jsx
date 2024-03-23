@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 export default function Navbar() {
 
     const backgroundNav = {
-        backgroundColor: "#152636"
+        backgroundColor: "#007FFF"
     };
 
 
@@ -25,8 +25,8 @@ export default function Navbar() {
                             <div className="p-3"></div>
                             <Link className="nav-link fs-5 active text-white" aria-current="page" to="/contacts">Contacts</Link>
                             <div className="p-3"></div>
-                            <Link className="nav-link fs-5 active text-white" aria-current="page" to="/programs">Programs</Link>
-                            <div className="p-3"></div>
+                            {/* <Link className="nav-link fs-5 active text-white" aria-current="page" to="/programs">Programs</Link>
+                            <div className="p-3"></div> */}
                             <Link className="nav-link fs-5 active text-white" aria-current="page" to="/educontent">Educational Content</Link>
                         </div>
 
